@@ -21,3 +21,8 @@ var drawWalls = function(){
   
 };
 
+var spikes = [];
+var makeSpikes = function(x,y,width,height){
+  
+};
+
