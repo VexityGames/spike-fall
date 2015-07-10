@@ -9,7 +9,15 @@ var positionY = 0;
 var charSize = 18;
 
 //game functions
-var platform = function(x,y,width,height){
+var walls = [];
 
+var makeWalls = function(x,y,width,height){
+  walls.push({
+    x: x, y: y,
+    width: width, height: height
+  });
+};
+var drawWalls = function(){
+  
 };
 
