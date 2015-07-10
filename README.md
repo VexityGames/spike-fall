@@ -2,7 +2,7 @@
 
 SpikeFall is a game to be published on the iOS App Store as well as the Android Google Play Store (possibly other day platforms too). 
 
-##Updates:
+##Updates
 
 * Made Repository
 
