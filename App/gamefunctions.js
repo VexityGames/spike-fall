@@ -18,11 +18,12 @@ var makeWalls = function(x,y,width,height){
   });
 };
 var drawWalls = function(){
-  
+  for()
 };
 
 var spikes = [];
 var makeSpikes = function(x,y,width,height){
   
 };
+var 
 
