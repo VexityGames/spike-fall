@@ -8,6 +8,7 @@ var positionX = 200;
 var positionY = 0;
 var charSize = 18;
 
+
 //game functions
 var walls = [];
 
@@ -17,6 +18,7 @@ var makeWalls = function(x,y,width,height){
     width: width, height: height
   });
 };
+makeWalls();
 var drawWalls = function(){
   for(var each in platforms) {
         rect(platforms[each].x, platforms[each].y, platforms[each].width, platforms[each].height);
