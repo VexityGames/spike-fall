@@ -18,7 +18,9 @@ var makeWalls = function(x,y,width,height){
   });
 };
 var drawWalls = function(){
-  for()
+  for(var each in platforms) {
+        rect(platforms[each].x, platforms[each].y, platforms[each].width, platforms[each].height);
+  }
 };
 
 var spikes = [];
