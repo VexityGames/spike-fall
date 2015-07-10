@@ -1,1 +1,37 @@
-# fall-down-
+#SpikeFall
+
+SpikeFall is a game to be published on the iOS App Store as well as the Android Google Play Store (possibly other day platforms too). 
+
+#Updates
+
+-Made Repository
+
+-Made gamefunctions.js file
+
+-Made more characters (suggest anything not listed in the README on pull requests)
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+#Characters
+
+-Gravity: Gravity is normally set at 0.5 and the Fall Speed is 9. This slows it down making it easier
+
+-Small: Makes the character smaller
+
+-Crush: Crushes anything in the way
+
+-More to come
