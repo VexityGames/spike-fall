@@ -4,11 +4,11 @@ SpikeFall is a game to be published on the iOS App Store as well as the Android 
 
 #Updates
 
--Made Repository
+*Made Repository
 
--Made gamefunctions.js file
+*Made gamefunctions.js file
 
--Made more characters (suggest anything not listed in the README on pull requests)
+*Made more characters (suggest anything not listed in the README on pull requests)
 
 -
 
@@ -27,6 +27,8 @@ SpikeFall is a game to be published on the iOS App Store as well as the Android 
 -
 
 #Characters
+
+*(Price Will Be Decided)*
 
 -Gravity: Gravity is normally set at 0.5 and the Fall Speed is 9. This slows it down making it easier
 
