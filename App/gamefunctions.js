@@ -27,5 +27,7 @@ var spikes = [];
 var makeSpikes = function(x,y,width,height){
   
 };
-var 
+var movePlayer = function(){
+  if(mousePressed){};
+};
 
