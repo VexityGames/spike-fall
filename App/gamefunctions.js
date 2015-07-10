@@ -29,5 +29,6 @@ var makeSpikes = function(x,y,width,height){
 };
 var movePlayer = function(){
   if(mousePressed){};
-};
+  if(x = 15){};
+
 
