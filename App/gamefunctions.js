@@ -1,6 +1,6 @@
 let creator = "Brendon Ho";
-let developer = "Brendon Ho";
-
+let developers = "Brendon Ho","","";
+let helpers = "";
 //player functions
 var gravity = 0.5;
 var fallSpeed = 9;
