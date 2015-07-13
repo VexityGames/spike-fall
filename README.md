@@ -30,10 +30,10 @@ SpikeFall is a game to be published on the iOS App Store as well as the Android 
 
 *(Price Will Be Decided)*
 
--Gravity: Gravity is normally set at 0.5 and the Fall Speed is 9. This slows it down making it easier
+-Gravity: Gravity is normally set at 0.5 and the Fall Speed is 9. Gravity will be decreased with this character. This slows it down making it easier
 
 -Small: Makes the character smaller
 
--Crush: Crushes anything in the way
+-Crush: Crushes anything in the way(temporary)
 
 -More to come
