@@ -45,4 +45,6 @@ var movePlayer = function(){
   if(mousePressed){};
   if(positionX = 15){};
 
-
+var coins = function(){
+coins: o
+};
