@@ -31,7 +31,7 @@ var makeWalls = function(x,y,width,height){
 makeWalls();
 var drawWalls = function(){
   for(var each in walls) {
-        walls.backgroundColor();
+        walls.color();
         .draw(walls[each].x, walls[each].y, walls[each].width, walls[each].height);
   }
 };
