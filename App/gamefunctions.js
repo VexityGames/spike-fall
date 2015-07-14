@@ -32,7 +32,7 @@ makeWalls();
 var drawWalls = function(){
   for(var each in walls) {
         walls.color();
-        .draw(walls[each].x, walls[each].y, walls[each].width, walls[each].height);
+        .canvasRect(walls[each].x, walls[each].y, walls[each].width, walls[each].height);
   }
 };
 
