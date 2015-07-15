@@ -8,6 +8,9 @@ var positionX = 200;
 var positionY = 0;
 var charSize = 18;
 
+var c = document.getElementById("rect");
+var ctx = c.getContext("2d");
+
 //Wall Coordinates
 var wallOneX = /*Add Value*/;
 var wallOneY = /*Add Value*/;
@@ -32,7 +35,7 @@ makeWalls();
 var drawWalls = function(){
   for(var each in walls) {
         walls.color();
-        walls.rect(walls[each].x, walls[each].y, walls[each].width, walls[each].height);
+        ctx.rect(walls[each].x, walls[each].y, walls[each].width, walls[each].height);
   }
 };
 
