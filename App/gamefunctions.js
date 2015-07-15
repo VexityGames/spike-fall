@@ -8,9 +8,21 @@ var positionX = 200;
 var positionY = 0;
 var charSize = 18;
 
-var canvas = document.getElementById("rect");
-var context = canvas.getContext("2d");
+var walls = [];
 
-context.beginPath();
-context.fillRect(100,100,100,100);
-context.color = yellow;
+var makeWalls = function(x,y,width,height){
+  walls.push({
+    x: x, y: y,
+    width: width, height: height
+  });
+};
+var drawWalls = function(){
+  for();
+};
+var spikes = [];
+var makeSpikes = function(){
+  
+};
+var drawSpikes = function(){
+  
+};
