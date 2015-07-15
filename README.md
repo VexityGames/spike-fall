@@ -10,7 +10,7 @@ SpikeFall is a game to be published on the iOS App Store as well as the Android 
 
 * Made more characters (suggest anything not listed in the README on pull requests)
 
--
+* index.html
 
 -
 
