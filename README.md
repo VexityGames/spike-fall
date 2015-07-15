@@ -1,13 +1,16 @@
 #SpikeFall
 
 SpikeFall is a game to be published on the iOS App Store as well as the Android Google Play Store (possibly other day platforms too). 
+
+[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http;//forthebadge.com)
+
 ##People
 
-* Peter Soboyejo
+* Peter Soboyejo [dzt](https//:github.com/dzt): Developer
 
-* Brendon Ho
+* Brendon Ho [brendonho01](https//:github.com/brendonho01): Creator, JavaScript Developer
 
-* Rahul Nandakumar
+* Rahul Nandakumar [syn0g3n](https//:github.com/syn0g3n): Website Manager
 
 ##Updates
 
