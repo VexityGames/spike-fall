@@ -1,4 +1,4 @@
-##Contributors
+###Contributors
 **People who helped me, put pull requests and wrote issues*
 
-*Peter Soboyejo(dzt)
+* Peter Soboyejo(dzt)
