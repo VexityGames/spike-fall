@@ -8,46 +8,9 @@ var positionX = 200;
 var positionY = 0;
 var charSize = 18;
 
-var c = document.getElementById("rect");
-var ctx = c.getContext("2d");
+var canvas = document.getElementById("rect");
+var context = canvas.getContext("2d");
 
-//Wall Coordinates
-var wallOneX = /*Add Value*/;
-var wallOneY = /*Add Value*/;
-var wallTwoX = /*Add Value*/;
-var wallTwoY = /*Add Value*/;
-var wallOneWidth = /*Add Value*/;
-var wallOneHeight = /*Add Value*/;
-var wallOneHeight = /*Add Value*/;
-var wallTwoWidth = /*Add Value*/;
-var wallTwoHeight = /*Add Value*/;
-
-//game functions
-var walls = [];
-
-var makeWalls = function(x,y,width,height){
-  walls.push({
-    x: x, y: y,
-    width: width, height: height
-  });
-};
-makeWalls();
-var drawWalls = function(){
-  for(var each in walls) {
-        walls.color();
-        ctx.rect(walls[each].x, walls[each].y, walls[each].width, walls[each].height);
-  }
-};
-
-var spikes = [];
-var makeSpikes = function(x,y,width,height){
-  
-};
-
-var movePlayer = function(){
-  if(mousePressed){};
-  if(positionX = 15){};
-
-var coins = function(){
-coins: o
-};
+context.beginPath();
+context.rect(100,100,100,100);
+context.color = yellow;
