@@ -12,5 +12,5 @@ var canvas = document.getElementById("rect");
 var context = canvas.getContext("2d");
 
 context.beginPath();
-context.rect(100,100,100,100);
+context.fillRect(100,100,100,100);
 context.color = yellow;
