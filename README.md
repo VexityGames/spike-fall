@@ -24,7 +24,7 @@ SpikeFall is a game to be published on the iOS App Store as well as the Android 
 
 * index.html
 
--
+* Added Style.css(For style)
 
 -
 
