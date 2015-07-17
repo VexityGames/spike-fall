@@ -18,6 +18,37 @@ var positionX = 200;
 var positionY = 0;
 var charSize = 18;
 
+var collideWith = function(xv, yv, walls) {
+    for (var each in platforms) {
+        var p = walls[each];
+        // Checks for Collision
+        if( positionY + ballSize > p.y &&
+            positionY < p.y + p.height &&
+            positionX + ballSize > p.x &&
+            positionX < p.x + p.width)
+        { // FROM
+        if(yv>0) { // BOTTOM
+            velocityY = 0;
+            jumping = false;
+            positionY = p.y-ballSize;
+        }
+        if(yv<0) { // TOP
+            velocityY = 0;
+            jumping = true;
+            positionY = p.y+p.height;
+        }
+        if(xv>0) { // RIGHT
+            velocityX = 0;
+            positionX = p.x-ballSize;
+        }
+        if(xv<0) { // LEFT
+            velocityX = 0;
+            positionX = p.x+p.width;
+        }
+    }
+    }
+};
+
 var canvas = document.getElementById("rect");
 var context = canvas.getContext("2d");
 
@@ -30,10 +61,13 @@ var makeWalls = function(x,y,width,height){
   });
 };
 var drawWalls = function(){
-  for(var each in);
-};
+  for(var each in walls){
+     makeWalls.fillRect(walls[each].x, walls[each].y, walls[each].width, walls[each].height);
+  };
+
 var spikes = [];
 var makeSpikes = function(){
+  
   
 };
 var drawSpikes = function(){
